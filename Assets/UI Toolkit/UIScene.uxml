@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/Style01.uss?fileID=7433441132597879392&amp;guid=156220014555fb3459f2d4dc0e7cefe6&amp;type=3#Style01" />
     <Style src="project://database/Assets/UI%20Toolkit/MessageContainer.uss?fileID=7433441132597879392&amp;guid=8bdeae823b8929d4aba4fdbc22776ee1&amp;type=3#MessageContainer" />
-    <ui:VisualElement style="width: 100%; height: 750px; align-items: center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 17px; padding-right: 17px; padding-top: 17px; padding-bottom: 17px;">
+    <ui:VisualElement style="width: 100%; height: 567px; align-items: center; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 17px; padding-right: 17px; padding-top: 17px; padding-bottom: 17px;">
         <ui:VisualElement name="Container" class="JessContainerStyle">
             <ui:VisualElement name="Messaje" class="JessMessageStyle">
                 <ui:Label text="Sample Text 14145151sfld" display-tooltip-when-elided="true" name="Text" class="TextStyle" />
@@ -20,7 +20,7 @@
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="Container" class="LauraContainerSyle">
+        <ui:VisualElement name="Container" class="LauraContainerSyle" style="height: 63px;">
             <ui:VisualElement name="Messaje" class="LauraMessageStyle">
                 <ui:Label text="hgjhjghjghjghjghjghjg" display-tooltip-when-elided="true" name="Text" class="TextStyle" />
                 <ui:VisualElement name="TimeContainer" class="TimeContainer">
@@ -31,7 +31,7 @@
         </ui:VisualElement>
         <ui:VisualElement name="Container" class="JessContainerStyle">
             <ui:VisualElement name="Messaje" class="JessMessageStyle">
-                <ui:Label text="hgjhjghjghjghjghjghjg" display-tooltip-when-elided="true" name="Text" class="TextStyle" />
+                <ui:Label text="hgjhjghjghjghj hghf gh fgh fgh fgh f fg hf gghjghjg" display-tooltip-when-elided="true" name="Text" class="TextStyle" />
                 <ui:VisualElement name="TimeContainer" class="TimeContainer">
                     <ui:Label text="6/06/2024" display-tooltip-when-elided="true" name="Date" class="TimeSTyle" style="-unity-font-style: bold;" />
                     <ui:Label text="10:75:91" display-tooltip-when-elided="true" name="Time" class="TimeSTyle" />

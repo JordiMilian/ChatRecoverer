@@ -452,11 +452,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reader: {fileID: 954828468}
   triggerUpdateUI: 0
-  minWidth: 150
+  minWidth: 250
   maxWidth: 600
   maxCharactersPerLine: 70
-  heightPerLine: 40
-  baseHeight: 40
+  extraWidth: 150
+  extraHeight: 50
 --- !u!1 &954828467
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +493,7 @@ MonoBehaviour:
   updateUI: 0
   nextMessage: 0
   previusMessage: 0
-  messageIndex: 0
+  messageIndex: 50
   messageLineCount: 0
   textMeshPro: {fileID: 1212833389}
   dateMeshPro: {fileID: 1941899197}

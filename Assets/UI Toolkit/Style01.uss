@@ -6,17 +6,17 @@
     border-right-width: 0;
     border-top-width: 0;
     border-bottom-width: 0;
-    border-top-left-radius: 24px;
+    border-top-left-radius: 20px;
     border-bottom-left-radius: 0;
-    border-top-right-radius: 24px;
-    border-bottom-right-radius: 24px;
-    justify-content: space-between;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: flex-end;
     align-items: flex-start;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: row-reverse;
 }
 
 .LauraMessageStyle {
@@ -27,21 +27,22 @@
     border-right-width: 0;
     border-top-width: 0;
     border-bottom-width: 0;
-    border-top-left-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-top-right-radius: 24px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
     border-bottom-right-radius: 0;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    justify-content: space-between;
-    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .JessContainerStyle {
-    width: 934px;
-    height: 100px;
+    width: 750px;
+    height: 60px;
     -unity-background-image-tint-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.13);
     margin-left: 2px;
@@ -53,10 +54,12 @@
     padding-top: 6px;
     padding-bottom: 6px;
     flex-shrink: 0;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
 .LauraContainerSyle {
-    width: 934px;
+    width: 750px;
     height: 100px;
     -unity-background-image-tint-color: rgb(255, 255, 255);
     background-color: rgba(255, 255, 255, 0.13);
@@ -77,6 +80,7 @@
     color: rgb(0, 0, 0);
     white-space: normal;
     flex-wrap: wrap;
+    width: auto;
 }
 
 .TimeSTyle {
@@ -86,8 +90,10 @@
 }
 
 .TimeContainer {
-    height: 29px;
+    height: 0;
     align-items: flex-end;
     justify-content: space-between;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: auto;
 }

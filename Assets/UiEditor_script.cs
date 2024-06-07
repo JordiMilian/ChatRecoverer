@@ -9,6 +9,8 @@ using System.Reflection;
 
 public class UiEditor_script : MonoBehaviour
 {
+    //ESTE ES EL SCRIPT CORRECTE
+
     UIDocument miMenu;
     VisualElement root;
     List<VisualElement> messageContainers;
@@ -18,8 +20,9 @@ public class UiEditor_script : MonoBehaviour
     [SerializeField] float minWidth;
     [SerializeField] float maxWidth;
     [SerializeField] int maxCharactersPerLine;
-    [SerializeField] float heightPerLine;
-    [SerializeField] float baseHeight;
+    [SerializeField] float extraWidth;
+    [SerializeField] float extraHeight;
+
 
 
     string JessContainerStyle = "JessContainerStyle";
@@ -85,7 +88,7 @@ public class UiEditor_script : MonoBehaviour
             }
         }
     }
-    IEnumerator CheckIdealHeight(txtReader.message messageInfo, int index, Label txtLabel)
+   IEnumerator CheckIdealHeight(txtReader.message messageInfo, int index, Label txtLabel)
     {
 
         if (messageInfo.Height != 0) //if its already set, set it as what it is
@@ -93,11 +96,12 @@ public class UiEditor_script : MonoBehaviour
             messageContainers[index].style.height = messageInfo.Height;
             yield break;
         }
-        messageContainers[index].style.height = 300;
+        messageContainers[index].style.height = 500;
         yield return null;
+
         Debug.Log("txtLabel height was: " + txtLabel.contentRect.height);
 
-        messageInfo.Height = txtLabel.contentRect.height + 80;
+        messageInfo.Height = txtLabel.contentRect.height + extraHeight;
 
         messageContainers[index].style.height = messageInfo.Height;
     }
@@ -123,7 +127,7 @@ public class UiEditor_script : MonoBehaviour
         }
         else
         {
-            messageInfo.Width = txtLabel.contentRect.width + 50;
+            messageInfo.Width = txtLabel.contentRect.width + extraWidth;
         }
         messagesStyles[index].style.width = messageInfo.Width;
     }
