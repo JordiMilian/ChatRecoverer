@@ -1,0 +1,93 @@
+.JessMessageStyle {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(178, 65, 166);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+}
+
+.LauraMessageStyle {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 136, 196);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.JessContainerStyle {
+    width: 934px;
+    height: 100px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    flex-shrink: 0;
+}
+
+.LauraContainerSyle {
+    width: 934px;
+    height: 100px;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.13);
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: flex-end;
+    flex-shrink: 0;
+}
+
+.TextStyle {
+    font-size: 100%;
+    color: rgb(0, 0, 0);
+    white-space: normal;
+    flex-wrap: wrap;
+}
+
+.TimeSTyle {
+    color: rgba(0, 0, 0, 0.43);
+    font-size: 75%;
+    -unity-font-style: italic;
+}
+
+.TimeContainer {
+    height: 29px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
